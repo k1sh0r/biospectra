@@ -2283,6 +2283,17 @@ background: #000;
 z-index: 0;
 }
 
+#video-bg-m {
+position: absolute;
+width: 60%;
+height: 60%;
+left: 0;
+top: 0;
+overflow: hidden;
+background: #000;
+z-index: 0;
+}
+
 
 /* 24. ken burns slideshow */
 .kenburns-slide-wrapper {

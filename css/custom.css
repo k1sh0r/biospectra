@@ -1,0 +1,6 @@
+@media (max-width:600px){
+	.w3-hide-small{display:none}
+}
+@media (min-width:993px){
+	.w3-hide-large{display: none}
+}
