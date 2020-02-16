@@ -207,6 +207,16 @@ $(function() {
             $(".sign-up-modal").addClass("open");
         }
     });
+    
+    $(".acc-modal-launcher, .acc-modal-closer").on("click", function() {
+        if ($(".acc-modal").hasClass("open")) {
+            $(".acc-modal").removeClass("open");
+            $(".acc-modal").addClass("close");
+        } else {
+            $(".acc-modal").removeClass("close");
+            $(".acc-modal").addClass("open");
+        }
+    });
     // 9.1.1. sign up modal additional CLOSER
     $(".header-navigation a, .header-navigation-xs a").on("click", function() {
         $(".sign-up-modal").removeClass("open");
