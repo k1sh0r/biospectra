@@ -1,6 +1,17 @@
 @media (max-width:769px){
 	.w3-hide-small{display:none!important}
+	.konjam-margin-mela{margin-top: 30px}
 }
 @media (min-width:1025px){
+	.konjam-padding{padding-bottom: 40px}
 	.w3-hide-large{display: none!important}
+}
+.square {
+ width:200px;
+ height:200px;
+ overflow:hidden;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: auto;
+ margin-bottom: auto;
 }
