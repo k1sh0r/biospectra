@@ -1,10 +1,12 @@
 @media (max-width:769px){
 	.w3-hide-small{display:none!important}
 	.konjam-margin-mela{margin-top: 30px}
+	.size-uh{height: 100%;}
 }
 @media (min-width:1025px){
 	.konjam-padding{padding-bottom: 40px}
 	.w3-hide-large{display: none!important}
+	.size-uh{width: 100%;}
 }
 .square {
  width:200px;
