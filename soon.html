@@ -35,7 +35,7 @@
                 <!-- navigation start -->
                 <nav class="header-navigation fadeIn-element">
                     <a class="link-underline-menu menu-first-child" href="index.html">About</a>
-                    <a class="link-underline-menu menu-second-child" href="soon.html">Events</a>
+                    <a class="link-underline-menu menu-second-child" data-toggle="modal" data-target="#eventsModal">Events</a>
                     <a class="link-underline-menu" href="medexpo.html">Med-Expo</a>
                     <a class="link-underline-menu" href="soon.html">Workshops</a>
                     <span class="logo-holder closed"><a href="index.html"><img alt="Biospectra" src="img/logo-dark.png"></a></span> 
@@ -50,7 +50,7 @@
                 <nav style="height: 94px" class="header-navigation-xs fadeIn-element">
                     <a class="logo-holder" href="index.html"></a>
                     <a href="index.html">About</a>
-                    <a href="soon.html">Events</a>
+                    <a data-toggle="modal" data-target="#eventsModal">Events</a>
                     <a href="medexpo.html">Med-Expo</a>
                     <a href="soon.html">Workshops</a>
                     <a href="team.html">Team</a>
@@ -60,6 +60,21 @@
                 </nav><!-- navigation mobile end -->
             </div>
         </header><!-- header section end -->
+
+        <!-- Events Modal -->
+<div class="modal fade" id="eventsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+          <div class="fadeIn-element" style="margin-top: 50%">
+          <a href="technical.html" class="c-btn fullwidth" style="width: 100%">
+            <span style="color: #fff">Technical Events</span>
+        </a>
+        <a href="nontech.html" class="c-btn fullwidth" style="width: 100%">
+            <span>Non-Technical Events</span>
+        </a>      
+    </div>
+  </div>
+</div>
+
                         <!-- acc modal start -->
         <div class="acc-modal">
             <!-- container start -->
